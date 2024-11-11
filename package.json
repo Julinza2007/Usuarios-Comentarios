@@ -11,10 +11,21 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "express": "^4.21.1",
     "mongoose": "^8.8.1",
     "morgan": "^1.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Julinza2007/Usuarios-Comentarios.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Julinza2007/Usuarios-Comentarios/issues"
+  },
+  "homepage": "https://github.com/Julinza2007/Usuarios-Comentarios#readme",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
   }
 }

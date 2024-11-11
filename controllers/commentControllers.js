@@ -31,7 +31,7 @@ const updateCommentById = (req, res) =>{
         .then(comment => res.status(200).json(comment));
 };
 
-const controller = {
+const commentController = {
     getAllComments,
     getCommentById,
     createComment,
@@ -40,5 +40,5 @@ const controller = {
     updateCommentById
 };
 
-export default commentControllers;
+export default commentController;
 

@@ -34,7 +34,7 @@ const updateUserById = (req, res) =>{
         .then(user => res.status(200).json(user));
 };
 
-const controller = {
+const userController = {
     getAllUsers, 
     getUserById,
     getUserByName,
@@ -44,6 +44,6 @@ const controller = {
     updateUserById
 };
 
-export default userControllers;
+export default userController;
 
 
